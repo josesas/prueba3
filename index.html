@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+     <!-- Site Metas -->
+    <title>Fast future free</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+    <!-- Site Icons -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/FCFDGZXDES.png">
+    <link rel="apple-touch-icon" href="images/development-icon-3335977_1920.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+	<script data-ad-client="ca-pub-5180479779376187" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Inicio de sesión</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Iniciar sesión</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registro</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										enviar
+									</button>
+									<a class="for-pwd" href="javascript:;">¿Has olvidado la contraseña</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Guardar&amp; Continuar
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancelar</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/FCFDGZXDES.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Tiendas</a></li>
+						<li class="nav-item"><a class="nav-link" href="features.html">Productos</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Cursos online </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="https://www.udemy.com">Udemy </a>
+								<a class="dropdown-item" href="https://www.khanacademy.org">Khan Academy </a>
+								<a class="dropdown-item" href="https://www.coursera.org">Coursera </a>
+								<a class="dropdown-item" href="https://www.futurelearn.com">FutureLearn</a>
+								<a class="dropdown-item" href="https://formacion.miriadax.net">Miríadax</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="domain.html">WordPress</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://rinconpsicologia.com/">Desarrollo personal</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Iniciar sesión</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/digital-4368784_1920.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2><strong>Fast</strong>Future</h2>
+										<p class="lead">Deja que el éxito comience</p>
+											<a href="contact.html" class="hover-btn-new"><span>Contacto</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Leer más</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/seo-2394237.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">Las mejores escuelas de <strong>formación</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">Encuentra los mejores cursos de formación académica para tu futuro lleno de éxito </p>
+											<a href="contact.html" class="hover-btn-new"><span>Contacto</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Leer más</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/business-5475661_1920.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>Pon en marcha tus </strong> conocimientos</h2>
+										<p class="lead" data-animation="animated fadeInLeft"> Ejecuta tus ideas y aprendizajes de la mejor forma y en las mejores plataformas</p>
+											<a href="contact.html" class="hover-btn-new"><span>Contacto</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>leer más</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var uid = '314215';
+		var wid = '612736';
+		var pop_fback = 'up';
+		var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
+		pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+	 </script>
+                        </div><!-- end checkdomain-wrapper -->
+                    </form>
+                </div>
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <h1>Desarrollo personal</h1>
+                        <p>El desarrollo personal incluye actividades que mejoran la conciencia y la identidad, impulsan el desarrollo de las habilidades personales y de los propios potenciales, contribuyen a construir capital humano </p>
+						<p>Facilitan la empleabilidad, mejoran la calidad de vida, y contribuyen a la realización de sueños y aspiraciones.</p>
+                        <ul class="list-inline">
+                            <li><i class="fa fa-check"></i>Conoce estrategias para el éxito</li>
+                            <li><i class="fa fa-check"></i>Pon em marchas tus objetivos</li>
+                        </ul>
+                        <!-- end list -->
+                        <a href="features.html" class="hover-btn-new"><span>Productos</span></a>
+                    </div>
+                </div>
+				
+                <!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Ofertas</h3>
+                    <p class="lead">Encuentra ofertas de productos que puedes comprar desde la comodidad de tu casa aquí</p>
+                </div>
+            </div><!-- end title -->
+			       
+			<script type="text/javascript">
+				amzn_assoc_placement = "adunit0";
+				amzn_assoc_search_bar = "false";
+				amzn_assoc_tracking_id = "xiami03-20";
+				amzn_assoc_ad_mode = "manual";
+				amzn_assoc_ad_type = "smart";
+				amzn_assoc_marketplace = "amazon";
+				amzn_assoc_region = "US";
+				amzn_assoc_title = "My Amazon Picks";
+				amzn_assoc_linkid = "ab81fa454746eef5ac9049266f53e14c";
+				amzn_assoc_asins = "B082YG1L4B,B08RHKTVB3,0316425168,B089RZQ8CP";
+				</script>
+				<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+				<script type="text/javascript">
+					amzn_assoc_placement = "adunit0";
+					amzn_assoc_search_bar = "false";
+					amzn_assoc_tracking_id = "xiami03-20";
+					amzn_assoc_ad_mode = "manual";
+					amzn_assoc_ad_type = "smart";
+					amzn_assoc_marketplace = "amazon";
+					amzn_assoc_region = "US";
+					amzn_assoc_title = "My Amazon Picks";
+					amzn_assoc_linkid = "ab81fa454746eef5ac9049266f53e14c";
+					amzn_assoc_asins = "8417166319,B08ZL7PWXN,B08LNFVW3D,B07L6KD1K3";
+					</script>
+					<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+
+					<script type="text/javascript">
+						amzn_assoc_placement = "adunit0";
+						amzn_assoc_search_bar = "false";
+						amzn_assoc_tracking_id = "xiami03-20";
+						amzn_assoc_ad_mode = "manual";
+						amzn_assoc_ad_type = "smart";
+						amzn_assoc_marketplace = "amazon";
+						amzn_assoc_region = "US";
+						amzn_assoc_title = "My Amazon Picks";
+						amzn_assoc_linkid = "ab81fa454746eef5ac9049266f53e14c";
+						amzn_assoc_asins = "B08P71JSKH,B08YTJGSXM,B08TW2KGKZ,B00KVSQ848";
+						</script>
+						<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>secciones</h4>
+                        <h2>Conoce las mejores tiendas online</h2>
+                        <p>En esta sesión conocerás la mejores tiendas online en la actualidad, su avance que han tenido en el mercado y en el mundo</p>
+
+                        <p>aquí también puedes encontrar ofertas de productos con cupones de descuentos y mas.</p>
+
+                        <a href="about.html" class="hover-btn-new"><span>¡vamos!</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/online-shop-5709809_1920.png" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/laptop-2838939_1920.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Estudia en las mejores academias online del mundo</h2>
+                        <p>Preparate en las mejores plataformas educativas online, donde obtendrás formación de punta y acceso a miles de cursos según tu preferencia educativa.</p>
+
+                        <p>Obtendrás tu certificado de finalización para mejorar tu cv y muchos mas conocimientos de los que te puedes imaginar</p>
+
+                        <a href="#" class="hover-btn-new"><span>Comenzar</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <section class="page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Mejores libros para el éxito</h3>
+                    <p class="lead">libros que te ayudaran para tu crecimiento personal y te impulsaran a lograr tus metas y objetivos </p>
+					<br>
+					<script type="text/javascript">
+						amzn_assoc_placement = "adunit0";
+						amzn_assoc_search_bar = "true";
+						amzn_assoc_tracking_id = "xiami03-20";
+						amzn_assoc_ad_mode = "manual";
+						amzn_assoc_ad_type = "smart";
+						amzn_assoc_marketplace = "amazon";
+						amzn_assoc_region = "US";
+						amzn_assoc_title = "My Amazon Picks";
+						amzn_assoc_linkid = "d579736ddae2a5de9eac82a8531abb81";
+						amzn_assoc_asins = "1400230233,B005KDDUVS,B08994R4K1,1736020102,1524763160,140022036X";
+						</script>
+						<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+					<img src="images/girl-3421489_1920.jpg" width="350px" height="290px">
+                </div>
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>De cero a uno, de Peter Thiel</h2>
+								<p>El multimillonario inversor y empresario Thiel ofrece en este clásico moderno un análisis profundo y que invita a pensar sobre el espíritu empresarial y crear valor en el mundo.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>El ejecutivo al minuto, de Kenneth Blanchard y Spencer Johnson</h2>
+								<p>Cuando se trata de aprender el arte de la comunicación efectiva como ejecutivo, no puede dejar pasar «El ejecutivo al minuto». Está lleno de consejos expertos sobre comunicación efectiva entre ejecutivos y sus empleados.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>Cómo ganar amigos e influir sobre las personas, de Dale Carnegie</h2>
+								<p>En este bestseller clásico, Carnegie le lleva dentro de la psicología detrás de nuestras interacciones diarias para mostrarle cómo convertirse en un líder y persona influyente en su campo.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>Rich Habits: The Daily Success Habits of Wealthy Individuals (Hábitos de rico: los hábitos diarios positivos de personas ricas), de Thomas Corley</h2>
+								<p>Corley se pasó cinco años estudiando las vidas de gente rica y de gente pobre para compartir los principales hábitos.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>El poder de los hábitos, de Charles Duhigg</h2>
+								<p>Los hábitos son algo poderosos, y nadie lo sabe mejor que el propio Duhigg, quien comparte la ciencia del cambio de hábitos en este extraordinario libro que le ayudará a establecer una vida de felicidad y éxito.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>Los 7 hábitos de la gente altamente efectiva, de Stephen R. Covey</h2>
+								<p>Adquiera inspiración y poder con este libro clásico de Covey para alcanzar sus objetivos. Cada capítulo analiza un hábito distinto con el objetivo de ayudarle a que usted sea lo mejor y más efectivo</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>La semana laboral de 4 horas, de Tim Ferriss</h2>
+								<p>Con más de un millón de copias vendidas en todo el mundo, es probable que usted ya haya escuchado antes esto de «La semana laboral de 4 horas».</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>El hombre más rico de Babilonia, de George S. Clason</h2>
+								<p>La guía fundamental para las finanzas personales ya que está contada a través de un conjunto aparentemente simple de parábolas que suceden en la histórica ciudad de Babilonia.</p>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- end section -->
+
+    <div id="pricing" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>¿Aun no te has registrado?</h3>
+                <p>registrarte pinchando el botón de arriba para ver mas de nuestro contenido y promociones</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="message-box">
+                        <ul class="nav nav-pills nav-stacked" id="myTabs">
+                            <li><a class="active" href="#tab1" data-toggle="pill">registrarte </a></li>
+                            <li><a href="about.html" data-toggle="pill">iniciar sección</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end col -->
+            </div>
+
+            <hr class="invis">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade show" id="tab1">
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Cursos</h2>
+                                        
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-life-ring"></i> <strong>computación</strong> básica</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>disponible </strong> en udemy</p>
+                                            <p><i class="fa fa-database"></i> <strong>aplica con cupón</strong> cupón</p>
+                                            <p><i class="fa fa-link"></i> <strong>cupón:</strong>fast future</p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>hasta un -35%</strong></p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new"><span>comprar el curso</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>WordPress</h2>
+                                            
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-database"></i> <strong>crea tu</strong>sitio web</p>
+                                            <p><i class="fa fa-rocket"></i> <strong>fácil </strong>y rápido</p>
+                                            <p><i class="fa fa-database"></i> <strong>sin </strong>complicaciones</p>
+                                            <p><i class="fa fa-link"></i> <strong>posicionalo</strong></p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>ponlo en marcha</strong></p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="domain.html" class="hover-btn-new"><span>Conocer WordPress</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>¿Que opinas?</h2>
+                                          
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-envelope-o"></i> <strong>envianos</strong>tu opinión</p>
+                                            <p><i class="fa fa-envelope-o"></i> <strong>tienes una</strong> pregunta</p>
+                                            <p><i class="fa fa-database"></i> <strong>quieres</strong> conocer mas</p>
+                                            <p><i class="fa fa-link"></i> <strong>afiliados</strong></p>
+                                            <p><i class="fa fa-life-ring"></i> <strong>soporte</strong></p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="contact.html" class="hover-btn-new"><span>contactar</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+                    </div><!-- end content -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+   <!-- end title -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Sobre Nosotros</h3>
+                        </div>
+                        <p>Es un sitio dedicado a conocer estrategias de crecimiento personal en las áreas educativas y sociales.</p>
+            
+                       
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Información</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Faq</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Detalle de contacto</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@fastfuture.com</a></li>
+                            <li><a href="#">www.fastfuture.com</a></li>
+                            <li>San Salvador, El Salvador</li>
+                            <li>+503</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">fast furure</a> Design By : <a href="#">html design</a></p>
+                </div>
+
+                <div class="footer-right">
+                    <ul class="footer-links-soi">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					</ul><!-- end links -->
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>
